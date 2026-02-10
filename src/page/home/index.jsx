@@ -6,7 +6,6 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { Button } from '@mui/material';
 import Webadd from '../../components/Home/Webadd/Webadd';
 import Footer from '../../components/Home/footer';
-import ProductSlider1 from '../../components/Home/homeproductslider/ProductSlider1';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -20,7 +19,7 @@ import nav2 from '../../assets/image/nav2.png'
 import nav3 from '../../assets/image/nav3.png'
 import nav4 from '../../assets/image/nav4.png'
 import banner2 from '../../assets/banner/banner3.png'
-
+import Productsshow from '../../components/Home/Productsshow/Productshow';
 // import required modules
 import { Navigation, Autoplay, Pagination  } from 'swiper/modules';
 
@@ -132,13 +131,7 @@ function Home() {
 </div>
 </section>
 
-<section>
-  <div className='homeproductslider py-5'>
-<ProductSlider1/>
-
-  </div>
-
-</section>
+<Productsshow/>
 
 {/* <section>
   <div className='footer'>
