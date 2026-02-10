@@ -82,6 +82,31 @@ function Productsshow(){
          <Productlist/>
         </SwiperSlide>
 
+        
+        <SwiperSlide>
+         <Productlist/>
+        </SwiperSlide>
+
+        <SwiperSlide>
+         <Productlist/>
+        </SwiperSlide>
+
+        <SwiperSlide>
+         <Productlist/>
+        </SwiperSlide>
+
+        <SwiperSlide>
+         <Productlist/>
+        </SwiperSlide>
+
+        <SwiperSlide>
+         <Productlist/>
+        </SwiperSlide>
+
+        <SwiperSlide>
+         <Productlist/>
+        </SwiperSlide>
+
     </Swiper>
         
        </div>

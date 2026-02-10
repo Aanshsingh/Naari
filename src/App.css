@@ -27,7 +27,7 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .logo img {
     width: 120px;
   }
@@ -44,6 +44,27 @@ body{
     .footersec{
       height: 224px;
     }
+
+    .product-name{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  
+}
+
+
+
+.price .oldprice{
+  
+  font-size: 0.7rem;
+ 
+}
+
+.price .newprice{
+  
+  font-size: 0.7rem;
+}
+
 
 }
 
@@ -68,6 +89,7 @@ body{
 .home .container .custom-next{ display: none;}
 
 .home .container .custom-prev{ display: none;}
+
 
   }
 
@@ -410,10 +432,47 @@ font-family: 'Khula', sans-serif;
   color: #FFFFFF;
 }
 
+.productlistswiper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
 .product-card{
   height: auto;
   width: auto;
   border-radius: 12px;
-  background-color: rgba(195, 165, 130, 0.5)
-;
+  background-color: rgba(195, 165, 130, 0.5);
+}
+
+.product-img img{
+  border-radius: 25%;
+}
+
+.product-name{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  font-family: 'Khula', sans-serif;
+}
+
+.price{
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: 'Khula', sans-serif;
+}
+
+.price .oldprice{
+  color: #FFFFFF;
+  font-size: 2rem;
+  text-decoration-line: line-through;
+}
+
+.price .newprice{
+  color: #FFFFFF;
+  font-size: 2rem;
 }
