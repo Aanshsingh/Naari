@@ -2,9 +2,8 @@
    function Footer() {
   return (
     <footer className="footer">
-
-      <div className="footer-container">
-        <div className="footer-col">
+      <div className="uperpart">
+            <div className="footer-col">
           <h3>Naari - The Ethnic Store</h3>
           <p>
             Celebrating elegance in every thread. Discover sarees and salwar suits
@@ -12,7 +11,10 @@
           </p>
         </div>
 
-        <div className="footer-col">
+      </div>
+
+      <div className="middle">
+          <div className="footer-col">
           <h4>Quick Links</h4>
           <ul>
             <li>Home</li>
@@ -37,20 +39,20 @@
         <div className="footer-col">
           <h4>Contact</h4>
           <p>Email: support@naari.com</p>
-          <p>Phone: +91 XXXXX XXXXX</p>
+
           <p>Instagram: @naari.ethnic</p>
         </div>
 
-           <div className="footer-bottom">
+      </div>
+
+      <div className="lowerpart">
+                 <div className="footer-bottom">
         <p>© 2026 Naari. All Rights Reserved.</p>
       </div>
 
       </div>
 
-      {/* ✅ MOVE THIS OUTSIDE GRID
-      <div className="footer-bottom">
-        <p>© 2026 Naari. All Rights Reserved.</p>
-      </div> */}
+     
 
     </footer>
   );
@@ -59,3 +61,5 @@
 
 
 export default Footer;
+
+
