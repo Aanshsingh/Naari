@@ -1,11 +1,12 @@
+import Customer_testimonal from '../../components/Home/customer_testimonial';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/pagination';
 
 import { Link } from 'react-router-dom';
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { Button } from '@mui/material';
-import Webadd from '../../components/Home/Webadd/Webadd';
-import Footer from '../../components/Home/footer';
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -19,6 +20,9 @@ import nav2 from '../../assets/image/nav2.png'
 import nav3 from '../../assets/image/nav3.png'
 import nav4 from '../../assets/image/nav4.png'
 import banner2 from '../../assets/banner/banner3.png'
+import banner4 from '../../assets/banner/banner4.png'
+import BestSeller from '../../components/Home/BestSeller';
+
 import Productsshow from '../../components/Home/Productsshow/Productshow';
 // import required modules
 import { Navigation, Autoplay, Pagination  } from 'swiper/modules';
@@ -125,13 +129,25 @@ function Home() {
 </section>
 
 <section>
-<div className='webadd'>
-<Webadd/>
 
-</div>
 </section>
 
 <Productsshow/>
+
+    <section> 
+        <div className="baner2">
+    <div className="container">
+      <Link ><img src={banner4} alt="new arivals"  /></Link>      
+      </div>      
+        </div>
+</section>
+
+<BestSeller/>
+
+<section>
+ <Customer_testimonal/>
+
+</section>
 
 {/* <section>
   <div className='footer'>

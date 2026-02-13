@@ -9,14 +9,14 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-function Productsshow(){
+function BestSeller(){
 
     return(
         <>
         <div className="productshow">
             <div className="productshow-container">
-             <h3>New Arivals</h3>
-             <p>Fresh styles, just arrived.</p>
+             <h3>Best Seller</h3>
+             <p>Trending now. Loved forever.</p>
 
             </div>
             <div>
@@ -121,4 +121,4 @@ function Productsshow(){
     )
 }
 
-export default Productsshow;
+export default BestSeller;

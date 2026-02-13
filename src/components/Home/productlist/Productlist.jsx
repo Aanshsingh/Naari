@@ -22,6 +22,8 @@ function Productlist() {
         <span className="oldprice">₹4000</span>
         <span className="newprice">₹3500</span>
       </div>
+
+      <div className="heart"><Button> <FaRegHeart/></Button></div>
   
 </div>
 

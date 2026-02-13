@@ -21,7 +21,7 @@ function Header() {
           </div>
          
              <div className="logo">
-                <Link>
+                <Link to={"/"}>
         <img src={Logo} alt="Logo" />
         
         </Link>
@@ -45,12 +45,12 @@ function Header() {
 
             </li>
             <li>
-                <Link> <Button>  ABOUT-US </Button>  </Link>
+                <Link to={"/About_us"}> <Button>  ABOUT-US </Button>  </Link>
 
 
             </li>
             <li>
-               <Link> <Button> CONTACT </Button>  </Link>
+               <Link to={"CONTACT_us"}> <Button> CONTACT </Button>  </Link>
 
             </li>
             <li>
@@ -58,7 +58,7 @@ function Header() {
 
             </li>
                <li>
-                <Link> <Button> FAQ </Button>  </Link>
+                <Link to={"/FAQ"}> <Button> FAQ </Button>  </Link>
 
             </li>
 
